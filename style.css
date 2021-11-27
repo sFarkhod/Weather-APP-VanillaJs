@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+.degree-section span{
+    position: relative;
+    font-size: 35px;
+    margin-left: 115px;
+}
+
+
+.degree-section h2 {
+    font-size: 40px;
+    position: fixed;
+}
+
+
+#icon img {
+    text-decoration: none;
+    margin-left: 280px;
+}
+
+#locations {
+    margin-left: -70px;
+    margin-top: -46px;
+    position: relative;
+}
+
+.temperature {
+    padding: 50px;
+}
+
+
+#temperature-description {
+    margin-top: 50px;
+}
+
+
+#inp {
+    margin-top: -20px;
+    margin-left: -50px;
+    padding-top: 8px;
+    padding-right: 100px;
+}
+
+#btn {
+    margin-top: 80px;
+    margin-right: 170px;
+    padding: 5px 5px;
+    box-shadow: 0 0 20px;
+    border-radius: 5px;
+    border: 2px solid aquamarine;
+}
+
+#btn2 {
+    margin-left: 170px;
+    margin-top: -29px;
+    padding: 5px 5px;
+    box-shadow: 0 0 20px;
+    border-radius: 5px;
+    border: 2px solid aquamarine;
+}
+
+
